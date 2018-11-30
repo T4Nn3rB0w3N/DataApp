@@ -12,6 +12,7 @@
 		2CB507F921B1880100C5246A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB507F821B1880100C5246A /* Assets.xcassets */; };
 		2CB507FC21B1880100C5246A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB507FA21B1880100C5246A /* LaunchScreen.storyboard */; };
 		2CB5081721B18E9300C5246A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5081621B18E9300C5246A /* DataViewController.swift */; };
+		2CB5081A21B1928900C5246A /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5081921B1928900C5246A /* BucketItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		2CB507FD21B1880100C5246A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB5080221B1880100C5246A /* DataAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB5081621B18E9300C5246A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		2CB5081921B1928900C5246A /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		2CB507F021B187FE00C5246A /* DataApp */ = {
 			isa = PBXGroup;
 			children = (
+				2CB5081821B1926300C5246A /* Model */,
 				2CB5081321B18A1500C5246A /* Controller */,
 				2CB5081221B1894300C5246A /* Resources */,
 				2CB5081121B1891D00C5246A /* View */,
@@ -105,6 +108,14 @@
 				2CB5081621B18E9300C5246A /* DataViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2CB5081821B1926300C5246A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CB5081921B1928900C5246A /* BucketItemCell.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB5081A21B1928900C5246A /* BucketItemCell.swift in Sources */,
 				2CB5081721B18E9300C5246A /* DataViewController.swift in Sources */,
 				2CB507F221B187FE00C5246A /* AppDelegate.swift in Sources */,
 			);
