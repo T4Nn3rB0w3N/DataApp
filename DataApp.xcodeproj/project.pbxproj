@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2CB507F221B187FE00C5246A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB507F121B187FE00C5246A /* AppDelegate.swift */; };
-		2CB507F421B187FE00C5246A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB507F321B187FE00C5246A /* ViewController.swift */; };
 		2CB507F721B187FE00C5246A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB507F521B187FE00C5246A /* Main.storyboard */; };
 		2CB507F921B1880100C5246A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB507F821B1880100C5246A /* Assets.xcassets */; };
 		2CB507FC21B1880100C5246A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB507FA21B1880100C5246A /* LaunchScreen.storyboard */; };
 		2CB5080721B1880100C5246A /* DataAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5080621B1880100C5246A /* DataAppTests.swift */; };
+		2CB5081721B18E9300C5246A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5081621B18E9300C5246A /* DataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		2CB507EE21B187FE00C5246A /* DataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB507F121B187FE00C5246A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CB507F321B187FE00C5246A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CB507F621B187FE00C5246A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CB507F821B1880100C5246A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB507FB21B1880100C5246A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		2CB5080221B1880100C5246A /* DataAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB5080621B1880100C5246A /* DataAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAppTests.swift; sourceTree = "<group>"; };
 		2CB5080821B1880100C5246A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB5081621B18E9300C5246A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 		2CB507E521B187FE00C5246A = {
 			isa = PBXGroup;
 			children = (
-				2CB507F021B187FE00C5246A /* Controller */,
+				2CB507F021B187FE00C5246A /* DataApp */,
 				2CB5080521B1880100C5246A /* DataAppTests */,
 				2CB507EF21B187FE00C5246A /* Products */,
 			);
@@ -74,14 +74,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CB507F021B187FE00C5246A /* Controller */ = {
+		2CB507F021B187FE00C5246A /* DataApp */ = {
 			isa = PBXGroup;
 			children = (
 				2CB5081321B18A1500C5246A /* Controller */,
 				2CB5081221B1894300C5246A /* Resources */,
 				2CB5081121B1891D00C5246A /* View */,
 			);
-			path = Controller;
+			path = DataApp;
 			sourceTree = "<group>";
 		};
 		2CB5080521B1880100C5246A /* DataAppTests */ = {
@@ -115,7 +115,7 @@
 		2CB5081321B18A1500C5246A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2CB507F321B187FE00C5246A /* ViewController.swift */,
+				2CB5081621B18E9300C5246A /* DataViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -221,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CB507F421B187FE00C5246A /* ViewController.swift in Sources */,
+				2CB5081721B18E9300C5246A /* DataViewController.swift in Sources */,
 				2CB507F221B187FE00C5246A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
