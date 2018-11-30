@@ -8,6 +8,9 @@
 
 import UIKit
 
-class BucketItemCell: UICollectionViewCell {
-    
+class BucketItemCell: UICollectionViewCell
+{
+    @IBOutlet weak var bucketItemText : UILabel!
+    @IBOutlet weak var bucketItemSymbol : UILabel!
+    @IBOutlet weak var bucketItemSignature : UILabel!
 }
